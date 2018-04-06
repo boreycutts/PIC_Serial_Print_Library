@@ -16,9 +16,12 @@ void print(const char * string);
 
 void println(const char * string);
 
+void print_int(int number);
+
+void println_int(int number);
+
 #ifdef	__cplusplus
 }
 #endif
 
 #endif	/* SERIAL_PRINT_H */
-

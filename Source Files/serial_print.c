@@ -19,3 +19,17 @@ void println(const char * string)
     }
     EUSART_Write('\r');
 }
+
+void print_int(int number)
+{
+   char * int_string[];
+   sprintf(int_string, "%d", number);
+   print(int_string);
+}
+
+void println_int(int number)
+{
+   char * int_string[];
+   sprintf(int_string, "%d", number);
+   println(int_string);
+}
