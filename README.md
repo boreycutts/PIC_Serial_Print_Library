@@ -38,3 +38,31 @@ println("lmao");
 Ayy
 lmao
 ```
+
+**`print_int(int)`** - Prints an integer, converted to a string, on one line
+
+**Example:** 
+```
+print_int(3 + 4); 
+print(" = ");
+print("3 + 4");
+```
+
+**Output:**
+```
+12 = 3 + 4
+```
+
+**`println_int(int)`** - Prints an integer, converted to a string, followed by a new line ('\r')
+
+**Example:** 
+```
+println_int(123);
+print("abc");
+```
+
+**Output:**
+```
+123
+abc
+```
